@@ -5,6 +5,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="css/style.css" rel="stylesheet" />
+
+    <style>
+#history{
+  background-color:cadetblue;
+  color: white;
+  padding: 10px 20px;
+}
+.soldout{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+  color: yellow;
+  background-color: purple;
+  width: 300px;
+  height: 100px;
+  padding: 30px 0;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  font-size: 40px;
+ 
+}
+    </style>
   </head>
   <body> 
       <!-- number_01  -->
@@ -19,13 +42,13 @@ We hope they succeed.</p>
 <p>
   <!-- numbers_04  -->
   <s>Only 50 tickets left!</s></p>
-<p>SOLD OUT!</p>
+<p class="soldout">SOLD OUT!</p>
 
 <p>My mother has   <!-- numbers_05  --><span style="color:blue;font-weight:bold">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold">dark green</span> eyes.</p>
 
 <p>  <!-- numbers_06  --><small>This is some smaller text.</small></p>
  <!-- numbers_07  -->
-<section>
+<section id="history">
   <h2>WWF History</h2>
   <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
 </section>
